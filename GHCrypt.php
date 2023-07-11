@@ -90,16 +90,15 @@ class GHCrypt {
 
 # test
 
-$test = "follow the white rabbit...";
+$text = "follow the white rabbit...";
 
 	$myCrypt = new GHCrypt();
-	$p1 = $myCrypt -> enstring($test);
-	$p2 = $myCrypt -> destring($p1);
+	$encrypt = $myCrypt -> enstring($text);
+	$decrypt = $myCrypt -> destring($encrypt);
 
-	echo "\r\nErgebniss:\r\n";
-	echo "Plain-text: ".$test."\r\n";
-	echo "Crypted: ".$p1."\r\n";
-	echo "Decrypted: ".$p2."\r\n";
+	echo "Plain-text: ".$text."\n";
+	echo "Crypted: ".$encrypt."\n";
+	echo "Decrypted: ".$decrypt."\n";
 
 unset($myCrypt);
 
