@@ -1,9 +1,23 @@
 <?php
 
-error_reporting(0);
+/*	
+ *	GHCrypt.php	
+ *
+ *			desc.:	This is a keyless encrypt/decrypt 
+ *							algorithm for plain text.
+ *
+ *			usage:		
+ *							$myCrypt = new GHCrypt();
+ *							$p1 = $myCrypt -> enstring($test);
+ *							$p2 = $myCrypt -> destring($p1);
+ *
+ *			author:		2022 vargalaszlo.com
+ *			license:	GPLv3
+ *			version:	1.13
+ *			
+ */
 
-# GHCrypt
-# v.1.13
+error_reporting(0);
 
 class GHCrypt {
 	
