@@ -21,3 +21,9 @@ unset($myCrypt);
 ?>
 ```
 
+## Demo
+
+The result after two runs:
+
+![App Screenshot](https://vargalaszlo.com/images/out/ghcrypt.png)
+
